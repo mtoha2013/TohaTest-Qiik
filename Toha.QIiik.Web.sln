@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toha.QIiik.Web", "Toha.QIiik.Web\Toha.QIiik.Web.csproj", "{04D188EB-BA05-4748-A79F-C3971F38C15C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toha.QIiik.UnitTest", "Toha.QIiik.UnitTest\Toha.QIiik.UnitTest.csproj", "{EA8B4AA9-94FC-43F7-A0C4-3FCD1F98093E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04D188EB-BA05-4748-A79F-C3971F38C15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D188EB-BA05-4748-A79F-C3971F38C15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D188EB-BA05-4748-A79F-C3971F38C15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D188EB-BA05-4748-A79F-C3971F38C15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8B4AA9-94FC-43F7-A0C4-3FCD1F98093E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8B4AA9-94FC-43F7-A0C4-3FCD1F98093E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8B4AA9-94FC-43F7-A0C4-3FCD1F98093E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8B4AA9-94FC-43F7-A0C4-3FCD1F98093E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35BE7DB1-EAE7-4145-98FD-F77AD41C16FC}
+	EndGlobalSection
+EndGlobal
