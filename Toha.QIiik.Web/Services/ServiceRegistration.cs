@@ -15,6 +15,7 @@ namespace Toha.QIiik.Web.Services
             services.AddScoped<ITriangleService, TriangleService>();
             services.AddScoped<IFibonacciService, FibonacciService>();
             services.AddScoped<IReverseWordService, ReverseWordService>();
+            services.AddScoped<IAlgorithmService, AlgorithmService>();
 
             return services;
         }
