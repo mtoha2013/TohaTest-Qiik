@@ -1,0 +1,12 @@
+
+            string sInput = "Whatis4compareToABig44Number";
+            string sResult = "";
+            foreach (var item in sInput) { 
+                int iTotal = sInput.Count(x => x == item);
+                int iAlreadyInserted = sResult.Count(x => x == item);
+                if (iTotal > 1 && iAlreadyInserted == 0)
+                    sResult += item;
+
+            }
+
+            sResult = sResult + " is result";
